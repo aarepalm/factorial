@@ -15,6 +15,9 @@ class Factorial {
 
 		long result = input;
 		while (input > 2) {
+			// This one-liner could also be written with two lines:
+			// input = input - 1;
+			// result = result * input;
 			result = result * --input;
 		}
 		return result;
